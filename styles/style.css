@@ -1,0 +1,215 @@
+/* Copyright (c) 2014 Shachar Avni. All rights reserved. */
+
+html 
+{
+   height: 100%;
+}
+
+body
+{
+   background: -webkit-linear-gradient(#384C7F, #5396AD); /* Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#384C7F, #5396AD); /* For Opera 11.6 to 12.0 */
+   background: -moz-linear-gradient(#384C7F, #5396AD); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#384C7F, #5396AD); /* Standard syntax */
+
+   height: 100%;
+   margin: 0;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+a img
+{
+   border: 0px;
+   outline: 0px;
+}
+
+a:link, a:active
+{
+   color: #000065;
+}
+
+a:visited
+{
+   color: #500C60;
+}
+
+.centeredContent
+{
+   text-align: center;
+   padding: 0px;
+}
+
+.centeredBlock
+{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.padded1
+{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.padded2
+{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.padded3
+{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+div.container
+{
+   position: relative;
+   width: 755px;
+   height: auto;
+   background: #CCCCCC;
+   margin-top: 30px;
+   border-color: #00002F;
+   border-style: solid;
+   border-width: 5px;
+   text-align: justify;
+}
+
+div.title
+{
+   color: #000000;
+   font: 50px Impact, Charcoal, sans-serif;
+   height: 70px;
+   border-bottom: 3px dotted #00002F;
+   width: 760px;
+   text-align: center;
+}
+
+div.navbar
+{
+   position: relative;
+   left: 0px;
+   width: 760px;
+   text-align: center;
+   height: 50px;
+   border-bottom: 3px dotted #00002F;
+}
+
+div.navoption1
+{
+   position: absolute;
+   left: 0px;
+   top: 5px;
+   width: 252px;
+}
+
+div.navoption2
+{
+   position: absolute;
+   left: 252px;
+   top: 5px;
+   width: 252px;
+}
+
+div.navoption3
+{
+   position: absolute;
+   left: 504px;
+   top: 5px;
+   width: 252px;
+}
+
+div.mainContent
+{
+   font: 16px Verdana, Geneva, 'DejaVu Sans', sans-serif;
+   position: relative;
+   width: 695px;
+   top: 0px;
+   left: 0px;
+   padding-left: 30px;
+   padding-top: 30px;
+   padding-bottom: 10px;
+}
+
+h1.contentTitle
+{
+   font-size: 28px;
+   text-align: center;
+   margin: 0px;
+   padding-bottom: 15px;
+}
+
+.highlightedArea
+{
+   border-width: 2px;
+   border-color: #00002F;
+   border-style: solid;
+   background-color: #B2B8FF;
+}
+
+.contactArea
+{
+   width: 400px;
+}
+
+.resumeArea
+{
+   width: 250px;
+}
+
+td.descriptionTitle
+{  
+   text-align: right;
+   font-weight: bold;
+   vertical-align: text-top;
+}
+
+td.description
+{
+   text-align: left;
+   padding-left: 5px;
+}
+
+div.javascriptWarning
+{
+   width: 300px;
+   font: 10px Verdana, Geneva, 'DejaVu Sans', sans-serif;  
+   padding-top: 3px;
+   padding-bottom: 3px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   text-align: center;
+   border-width: 1px;
+}
+
+div.footer
+{
+   font: 10px Verdana, Geneva, 'DejaVu Sans', sans-serif;
+   color: #000000;	
+   height: auto;
+   border-top: 3px dotted #00002F;
+   width: 760px;
+   text-align: left;
+   padding-top: 6px;
+   padding-bottom: 6px;
+}
+
+div.copyrightText
+{
+   padding-left: 3px;
+}
+
+object#AsteroidsVideo
+{
+   width: 480px;
+   height: 390px;
+}
+
+object#ProstateVideo
+{
+   width: 425px;
+   height: 349px;
+}
