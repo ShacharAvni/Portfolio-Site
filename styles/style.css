@@ -80,8 +80,8 @@ div.container
 div.title
 {
    color: #000000;
-   font: 50px Impact, Charcoal, sans-serif;
-   height: 70px;
+   font: 56px Impact, Charcoal, sans-serif;
+   height: 76px;
    border-bottom: 3px dotted #00002F;
    width: 760px;
    text-align: center;
@@ -100,7 +100,7 @@ div.navbar
 div.navoption1
 {
    position: absolute;
-   left: 0px;
+   left: 112px;
    top: 5px;
    width: 252px;
 }
@@ -108,15 +108,7 @@ div.navoption1
 div.navoption2
 {
    position: absolute;
-   left: 252px;
-   top: 5px;
-   width: 252px;
-}
-
-div.navoption3
-{
-   position: absolute;
-   left: 504px;
+   left: 392px;
    top: 5px;
    width: 252px;
 }
