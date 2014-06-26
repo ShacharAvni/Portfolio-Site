@@ -69,8 +69,8 @@ div.container
    position: relative;
    width: 755px;
    height: auto;
-   background: #CCCCCC;
-   margin-top: 30px;
+   background: #FFFFFF;
+   margin-top: 0px;
    border-color: #00002F;
    border-style: solid;
    border-width: 5px;
@@ -81,10 +81,57 @@ div.title
 {
    color: #000000;
    font: 56px Impact, Charcoal, sans-serif;
-   height: 76px;
+   height: 56px;
    border-bottom: 3px dotted #00002F;
    width: 760px;
    text-align: center;
+}
+
+div.title2
+{
+   color: #000000;
+   padding-top: 10px;
+   padding-bottom: 0px;
+   font-size: 56px;
+   font-family: cooper blk bt, arial black;
+   height: 76px;
+   text-align: center;
+}
+
+div.header
+{
+   /*position: relative;
+   left: 0px;
+   text-align: center;
+   border-bottom: 3px dotted #00002F;*/
+   position: relative;
+   padding-top: 0px;
+   width: 500px;
+   height: 50px;
+   /*background-color: #FFFFFF;*/
+   font-family: cooper blk bt, arial black;
+   font-size: 24px;
+}
+
+div.headeroption1
+{
+   position: absolute;
+   left: 50px;
+   /*width: 252px;*/
+}
+
+div.headeroption2
+{
+   position: absolute;
+   left: 185px;
+   /*width: 252px;*/
+}
+
+div.headeroption3
+{
+   position: absolute;
+   left: 310px;
+   /*width: 252px;*/
 }
 
 div.navbar
@@ -117,12 +164,74 @@ div.mainContent
 {
    font: 16px Verdana, Geneva, 'DejaVu Sans', sans-serif;
    position: relative;
-   width: 695px;
+   width: 715px;
    top: 0px;
    left: 0px;
-   padding-left: 30px;
-   padding-top: 30px;
+   padding-left: 20px;
+   /*padding-top: 20px;*/
+   /*padding-right: 20px;*/
    padding-bottom: 10px;
+}
+
+.project
+{
+   /*width: 695px;*/
+   height: 200px;
+   position: relative;
+   margin-top: 10px;
+   /*margin-bottom: 20px;*/
+   border-color: #00002F;
+   border-style: solid;
+   border-width: 2px;
+   padding: 5px;
+}
+
+.leftColumn
+{
+   display: block;
+   position: absolute;
+   /*top: 0px;*/
+   /*left: 0px;*/
+}
+
+.projectImage
+{
+   width: 200px;
+   height: 200px;
+}
+
+.rightColumn
+{
+   display: block;
+   position: absolute;
+   padding-left: 20px;
+   /*top: 0px;*/
+   right: 0px;
+   left: 205px;
+   width: 475px;
+   height: 200px;
+}
+
+.projectLink
+{
+   position: relative;
+}
+
+.projectLinkImage
+{
+   display: block;
+   position: absolute;
+   width: 40px;
+   height: 40px;
+}
+
+.projectLinkText
+{
+   display: table-cell;
+   padding-left: 50px;
+   left: 40x;
+   height: 40px;
+   vertical-align: middle;
 }
 
 h1.contentTitle
@@ -172,7 +281,8 @@ div.javascriptWarning
    padding-bottom: 3px;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 30px;
+   /* margin-top: 30px; */
+   margin-bottom: 5px;
    text-align: center;
    border-width: 1px;
 }
