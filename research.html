@@ -6,6 +6,7 @@
 <head>
   <title>Shachar Avni - Programming Portfolio</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -15,20 +16,22 @@
 
   <div class="title2">Shachar&nbsp;Avni</div>
    <div class="header centeredBlock">
-      <div class="headeroption1"><a href="https://github.com/ShacharAvni" target="_blank">My Code</a></div>
-      <div class="headeroption2"><a href="ShacharAvni_Resume.pdf" target="_blank">Resume</a></div>
-      <div class="headeroption3"><a href="mailto:&#115;&#104;&#097;&#099;&#046;&#097;&#118;&#110;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Contact Me</a></div>
+      <div class="headeroption1"><a class="headerOption" href="https://github.com/ShacharAvni" target="_blank">My Code</a></div>
+      <div class="headeroption2"><a class="headerOption" href="ShacharAvni_Resume.pdf" target="_blank">Resume</a></div>
+      <div class="headeroption3">
+         <a class="headerOption" href="mailto:&#115;&#104;&#097;&#099;&#046;&#097;&#118;&#110;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><span class="contact">&#115;&#104;&#097;&#099;&#046;&#097;&#118;&#110;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</span></a>
+      </div>
    </div>
 
-  <noscript><div class="javascriptWarning highlightedArea">This site is best enjoyed with JavaScript enabled.</div></noscript>
+  <!--<noscript><div class="javascriptWarning highlightedArea">This site is best enjoyed with JavaScript enabled.</div></noscript>-->
 
   <div class="container centeredBlock">
 
     <!-- <div class="title">Shachar&nbsp;&nbsp;Avni</div> -->
 
     <div class="navbar">
-      <div class="navoption1"><a href="index.html"><img id="Projects" alt="Projects" src="images/Projects_image.png" onmouseover="changeToMouseOverImage('Projects', 0, 'png');" onmouseout="changeToDefaultImage('Projects', 0, 'png');" /></a></div>
-      <div class="navoption2"><a href="#"><img id="Contact" alt="Contact" src="images/Contact_image.png" onmouseover="changeToMouseOverImage('Contact', 0, 'png');" onmouseout="changeToDefaultImage('Contact', 0, 'png');" /></a></div>
+      <div class="navoption1"><a class="headerOption" href="index.html">Programming</a></div>
+      <div class="navoption2"><a class="headerOption" href="#">Research</a></div>
     </div>
 
     <div class="mainContent">
@@ -38,8 +41,8 @@
             <div class="projectImage"><img src="images/FrontierSets.png" width="200" height="200"/></div>
          </div>
          <div class="rightColumn">
-            Frontier Sets in Large Terrains<br /><br />
-            My master's thesis project where I extended an existing algorithm for message culling in networked first person shooter style games for use in terrains.<br /><br />
+            <span class="projectTitle">Frontier Sets in Large Terrains</span><br /><br />
+            My master's thesis project where I extended an existing algorithm for message culling in networked first person shooter style games for use in terrains<br /><br />
             <div class="projectLink">
                <div class="projectLinkImage"><img src="images/MortarBoard.png" alt="Mortar Board" width="40" height="40" /></div>
                <div class="projectLinkText"><a href="http://qspace.library.queensu.ca/bitstream/1974/5688/1/Avni_Shachar_201005_MSc.pdf" target="_blank">Read my Thesis</a></div>
@@ -56,7 +59,7 @@
             <div class="projectImage"><img src="images/ProstateTargeting.png" width="200" height="200"/></div>
          </div>
          <div class="rightColumn">
-            Prostate Targeting Error Simulator<br /><br />
+            <span class="projectTitle">Prostate Targeting Error Simulator</span><br /><br />
             Graduate research project where I developed a targeting error simulator for use in trials of a MRI-guided prostate biopsy procedure<br /><br />
             <div class="projectLink">
                <div class="projectLinkImage"><img src="images/Quill.png" alt="Quill" width="40" height="40" /></div>
