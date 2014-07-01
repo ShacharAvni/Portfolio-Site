@@ -4,7 +4,7 @@ function getContact()
 {
 	document.write("<span class=\"contact\">");
  
-   document.write("<a class=\"headerOption\"");
+   document.write("<a class=\"shadow\"");
    document.write(" href=\"mai");
    document.write("lto");
    document.write(":");

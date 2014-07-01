@@ -7,36 +7,15 @@ html
 
 body
 {
-   /*background: -webkit-linear-gradient(#384C7F, #5396AD); /* Safari 5.1 to 6.0 */
-   /*background: -o-linear-gradient(#384C7F, #5396AD); /* For Opera 11.6 to 12.0 */
-   /*background: -moz-linear-gradient(#384C7F, #5396AD); /* For Firefox 3.6 to 15 */
-   /*background: linear-gradient(#384C7F, #5396AD); /* Standard syntax */
-
-   background: -webkit-linear-gradient(#5396AD, #384C7F); /* Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(#5396AD, #384C7F); /* For Opera 11.6 to 12.0 */
-   background: -moz-linear-gradient(#5396AD, #384C7F); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(#5396AD, #384C7F); /* Standard syntax */
+   background: -webkit-linear-gradient(#6BC3E0, #4F6CAF); /* Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#6BC3E0, #4F6CAF); /* For Opera 11.6 to 12.0 */
+   background: -moz-linear-gradient(#6BC3E0, #4F6CAF); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#6BC3E0, #4F6CAF); /* Standard syntax */
 
    height: 100%;
    margin: 0;
    background-repeat: no-repeat;
    background-attachment: fixed;
-}
-
-a img
-{
-   border: 0px;
-   outline: 0px;
-}
-
-a:link, a:active
-{
-   color: #000065;
-}
-
-a:visited
-{
-   color: #500C60;
 }
 
 .centeredContent
@@ -49,24 +28,6 @@ a:visited
 {
    margin-left: auto;
    margin-right: auto;
-}
-
-.padded1
-{
-   padding-left: 20px;
-   padding-right: 20px;
-}
-
-.padded2
-{
-   padding-top: 5px;
-   padding-bottom: 5px;
-}
-
-.padded3
-{
-   padding-top: 10px;
-   padding-bottom: 10px;
 }
 
 div.container
@@ -85,54 +46,20 @@ div.container
 div.title
 {
    color: #000000;
-   font: 56px Impact, Charcoal, sans-serif;
-   height: 56px;
-   border-bottom: 3px dotted #00002F;
-   width: 760px;
-   text-align: center;
-}
-
-div.title2
-{
-   color: #000000;
    padding-top: 10px;
    padding-bottom: 0px;
    font-size: 90px;
-   /*font-family: cooper blk bt, arial black;*/
    font-family: 'Righteous', cursive;
-   text-shadow: 2px 5px 20px #0000FF;
+   text-shadow: 2px 3px 7px #0000FF;
    height: 100px;
    text-align: center;
 }
 
-div.contactContainer
-{
-   position: relative;
-   left: 50px;
-   padding-top: 0px;
-   width: 500px;
-   font-size: 24px;
-   height: 24px;
-}
-
-div.contact
-{
-   position: absolute;
-   left: 50px;
-}
-
 div.header
 {
-   /*position: relative;
-   left: 0px;
-   text-align: center;
-   border-bottom: 3px dotted #00002F;*/
-   /*position: relative;*/
    padding-top: 0px;
    width: 800px;
    height: 40px;
-   /*background-color: #FFFFFF;*/
-   /*font-family: cooper blk bt, arial black;*/
    font-size: 32px;
 }
 
@@ -151,37 +78,19 @@ span.nostyle
 {
 }
 
-div.headeroption1
-{
-   position: absolute;
-   left: 150px;
-}
-
-div.headeroption2
-{
-   position: absolute;
-   left: 330px;
-}
-
-div.headeroption3
-{
-   position: absolute;
-   left: 310px;
-}
-
-a.headerOption:link
+a.shadow:link
 {
    color: #000000;
    text-decoration: none;
 }
 
-a.headerOption:visited
+a.shadow:visited
 {
    color: #000000;
    text-decoration: none;
 }
 
-a.headerOption:hover
+a.shadow:hover
 {
    color: #000000;
    text-decoration: none;
@@ -192,13 +101,12 @@ div.navbar
 {
    position: relative;
    left: 0px;
-   width: 760px;
-   top: 5px;
+   width: 755px;
+   padding-top: 5px;
    text-align: center;
    font-family: 'Righteous', cursive;
    height: 50px;
-   border-bottom: 3px dotted #00002F;
-   font-size: 32px; 
+   font-size: 32px;
 }
 
 div.navoption1
@@ -231,24 +139,20 @@ div.navoption4
 
 div.mainContent
 {
-   font: 16px Verdana, Geneva, 'DejaVu Sans', sans-serif;
    position: relative;
-   width: 715px;
    top: 0px;
    left: 0px;
    padding-left: 20px;
-   /*padding-top: 20px;*/
-   /*padding-right: 20px;*/
+   padding-right: 20px;
    padding-bottom: 10px;
 }
 
 .project
 {
-   /*width: 695px;*/
+   font: 16px Verdana, Geneva, 'DejaVu Sans', sans-serif;
    height: 200px;
    position: relative;
    margin-top: 10px;
-   /*margin-bottom: 20px;*/
    border-color: #00002F;
    border-style: solid;
    border-width: 2px;
@@ -259,8 +163,6 @@ div.mainContent
 {
    display: block;
    position: absolute;
-   /*top: 0px;*/
-   /*left: 0px;*/
 }
 
 .projectImage
@@ -274,7 +176,6 @@ div.mainContent
    display: block;
    position: absolute;
    padding-left: 20px;
-   /*top: 0px;*/
    right: 0px;
    left: 205px;
    width: 475px;
@@ -284,6 +185,7 @@ div.mainContent
 span.projectTitle
 {
    font-weight: bold;
+   font-size: 20px;
 }
 
 .projectLink
@@ -306,59 +208,8 @@ span.projectTitle
    left: 40x;
    height: 40px;
    vertical-align: middle;
-}
-
-h1.contentTitle
-{
-   font-size: 28px;
-   text-align: center;
-   margin: 0px;
-   padding-bottom: 15px;
-}
-
-.highlightedArea
-{
-   border-width: 2px;
-   border-color: #00002F;
-   border-style: solid;
-   background-color: #B2B8FF;
-}
-
-.contactArea
-{
-   width: 400px;
-}
-
-.resumeArea
-{
-   width: 250px;
-}
-
-td.descriptionTitle
-{  
-   text-align: right;
-   font-weight: bold;
-   vertical-align: text-top;
-}
-
-td.description
-{
-   text-align: left;
-   padding-left: 5px;
-}
-
-div.javascriptWarning
-{
-   width: 300px;
-   font: 10px Verdana, Geneva, 'DejaVu Sans', sans-serif;  
-   padding-top: 3px;
-   padding-bottom: 3px;
-   margin-left: auto;
-   margin-right: auto;
-   /* margin-top: 30px; */
-   margin-bottom: 5px;
-   text-align: center;
-   border-width: 1px;
+   font-family: 'Francois One', sans-serif;
+   font-size: 20px;
 }
 
 div.footer
@@ -366,7 +217,6 @@ div.footer
    font: 10px Verdana, Geneva, 'DejaVu Sans', sans-serif;
    color: #000000;	
    height: auto;
-   border-top: 3px dotted #00002F;
    width: 760px;
    text-align: left;
    padding-top: 6px;
@@ -376,16 +226,4 @@ div.footer
 div.copyrightText
 {
    padding-left: 3px;
-}
-
-object#AsteroidsVideo
-{
-   width: 480px;
-   height: 390px;
-}
-
-object#ProstateVideo
-{
-   width: 425px;
-   height: 349px;
 }
