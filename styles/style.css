@@ -127,10 +127,10 @@ div.header
    left: 0px;
    text-align: center;
    border-bottom: 3px dotted #00002F;*/
-   position: relative;
+   /*position: relative;*/
    padding-top: 0px;
    width: 800px;
-   height: 50px;
+   height: 40px;
    /*background-color: #FFFFFF;*/
    /*font-family: cooper blk bt, arial black;*/
    font-size: 32px;
@@ -139,6 +139,16 @@ div.header
 span.contact
 {
    font-size: 20px;
+   font-family: 'Righteous', cursive;
+}
+
+span.noshow
+{
+   display: none;
+}
+
+span.nostyle
+{
 }
 
 div.headeroption1
@@ -156,20 +166,18 @@ div.headeroption2
 div.headeroption3
 {
    position: absolute;
-   left: 510px;
+   left: 310px;
 }
 
 a.headerOption:link
 {
    color: #000000;
-   font-family: 'Righteous', cursive;
    text-decoration: none;
 }
 
 a.headerOption:visited
 {
    color: #000000;
-   font-family: 'Righteous', cursive;
    text-decoration: none;
 }
 
@@ -177,7 +185,6 @@ a.headerOption:hover
 {
    color: #000000;
    text-decoration: none;
-   font-family: 'Righteous', cursive;
    text-shadow: 2px 5px 20px #0000FF;
 }
 
@@ -186,7 +193,9 @@ div.navbar
    position: relative;
    left: 0px;
    width: 760px;
+   top: 5px;
    text-align: center;
+   font-family: 'Righteous', cursive;
    height: 50px;
    border-bottom: 3px dotted #00002F;
    font-size: 32px; 
@@ -195,17 +204,29 @@ div.navbar
 div.navoption1
 {
    position: absolute;
-   left: 112px;
-   top: 5px;
-   width: 252px;
+   left: 0%;
+   width: 25%;
 }
 
 div.navoption2
 {
    position: absolute;
-   left: 392px;
-   top: 5px;
-   width: 252px;
+   left: 25%;
+   width: 25%;
+}
+
+div.navoption3
+{
+   position: absolute;
+   left: 50%;
+   width: 25%;
+}
+
+div.navoption4
+{
+   position: absolute;
+   left: 75%;
+   width: 25%;
 }
 
 div.mainContent
