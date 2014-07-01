@@ -8,14 +8,17 @@ html
 body
 {
    background: -webkit-linear-gradient(#6BC3E0, #4F6CAF); /* Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(#6BC3E0, #4F6CAF); /* For Opera 11.6 to 12.0 */
-   background: -moz-linear-gradient(#6BC3E0, #4F6CAF); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(#6BC3E0, #4F6CAF); /* Standard syntax */
+   background: -o-linear-gradient(#6BC3E0, #4F6CAF);  /* For Opera 11.6 to 12.0 */
+   background: -moz-linear-gradient(#6BC3E0, #4F6CAF);  /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#6BC3E0, #4F6CAF);  /* Standard syntax */
 
    height: 100%;
    margin: 0;
    background-repeat: no-repeat;
    background-attachment: fixed;
+
+   /* fallback in case linear gradient is not supported */
+   background-color: #6BC3E0;
 }
 
 .centeredContent
