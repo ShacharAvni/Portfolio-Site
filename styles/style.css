@@ -109,35 +109,37 @@ div.navbar
    text-align: center;
    font-family: 'Righteous', cursive;
    height: 50px;
-   font-size: 32px;
+   font-size: 28px;
 }
 
 div.navoption1
 {
    position: absolute;
-   left: 0%;
-   width: 25%;
+   left: 15px;
 }
 
 div.navoption2
 {
    position: absolute;
-   left: 25%;
-   width: 25%;
+   left: 160px;
 }
 
 div.navoption3
 {
    position: absolute;
-   left: 50%;
-   width: 25%;
+   left: 315px;
 }
 
 div.navoption4
 {
    position: absolute;
-   left: 75%;
-   width: 25%;
+   left: 465px;
+}
+
+div.navoption5
+{
+   position: absolute;
+   left: 600px;
 }
 
 div.mainContent
@@ -182,7 +184,7 @@ div.downloadSectionTitle
    font: 16px Verdana, Geneva, 'DejaVu Sans', sans-serif;
    height: 206px;
    position: relative;
-   margin-top: 10px;
+   margin-bottom: 10px;
    border-color: #00002F;
    border-style: solid;
    border-width: 2px;
@@ -227,26 +229,23 @@ span.projectTitle
    height: 40px;
 }
 
+.projectsSize
+{
+   font-size: 20px;
+}
+
+.downloadsSize
+{
+   font-size: 17px;
+}
+
 .projectLinkText
 {
    display: table-cell;
    padding-left: 50px;
-   left: 40px;
    height: 40px;
    vertical-align: middle;
    font-family: 'Francois One', sans-serif;
-   font-size: 20px;
-}
-
-.projectLinkText2
-{
-   display: table-cell;
-   padding-left: 50px;
-   left: 40px;
-   height: 40px;
-   vertical-align: middle;
-   font-family: 'Francois One', sans-serif;
-   font-size: 17px;
 }
 
 div.footer
@@ -256,7 +255,6 @@ div.footer
    height: auto;
    width: 760px;
    text-align: left;
-   padding-top: 6px;
    padding-bottom: 6px;
 }
 
