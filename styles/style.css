@@ -150,6 +150,33 @@ div.mainContent
    padding-bottom: 10px;
 }
 
+div.downloadSectionTitle
+{
+   font-weight: bold;
+   font-size: 17px;
+   text-align: center;
+   padding-bottom: 8px;
+   border-color: #00002F;
+   border-bottom-style: solid;
+   border-bottom-width: 2px;
+   margin-bottom: 10px;
+}
+
+.downloads
+{
+   border-color: #00002F;
+   border-style: solid;
+   border-width: 2px;
+   text-align: center;
+}
+
+.downloadSection
+{
+   font: 16px Verdana, Geneva, 'DejaVu Sans', sans-serif;
+   display: inline-block;
+   padding: 9px;
+}
+
 .project
 {
    font: 16px Verdana, Geneva, 'DejaVu Sans', sans-serif;
@@ -192,11 +219,6 @@ span.projectTitle
    font-size: 20px;
 }
 
-.projectLink
-{
-   position: relative;
-}
-
 .projectLinkImage
 {
    display: block;
@@ -214,6 +236,17 @@ span.projectTitle
    vertical-align: middle;
    font-family: 'Francois One', sans-serif;
    font-size: 20px;
+}
+
+.projectLinkText2
+{
+   display: table-cell;
+   padding-left: 50px;
+   left: 40px;
+   height: 40px;
+   vertical-align: middle;
+   font-family: 'Francois One', sans-serif;
+   font-size: 17px;
 }
 
 div.footer
